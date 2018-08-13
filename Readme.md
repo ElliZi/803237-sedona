@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Elizaveta Bazdyreva](https://up.htmlacademy.ru/htmlcss/22/user/803237).
-* Наставник: `Неизвестно`.
+* Студент: [Liza B](https://up.htmlacademy.ru/htmlcss/21/user/803237).
+* Наставник: [Елена Забара] (https://htmlacademy.ru/profile/lena___elena).
 
 ---
 
