@@ -215,7 +215,56 @@ a.nav-catalog {
     flex-direction: row;
     margin: 0;
     padding: 0;
-    height: 264px;
+    height: 330px;
+}
+
+.additional-reasons {
+    width: 400px;
+}
+
+.additional-reasons h3 {
+    position: relative;
+    width: 400px;
+    margin-top: 161px;
+}
+
+.additional-reasons-house h3::before {
+    content: "";
+    position: absolute;
+    width: 76px;
+    height: 72px;
+    margin-top: 40px;
+    margin-left: -4px;
+    background-image: 
+        url(../img/icon-1.svg);
+}
+
+.additional-reasons-eat h3::before {
+    content: "";
+    position: absolute;
+    width: 74px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: -18px;
+    background-image: 
+        url(../img/icon-3.svg);
+}
+
+.additional-reasons-gift h3::before {
+    content: "";
+    position: absolute;
+    width: 64px;
+    height: 76px;
+    margin-top: 35px;
+    margin-left: 20px;
+    background-image: 
+        url(../img/icon-2.svg);
+}
+
+.additional-reasons p {
+    margin-top: 2px;
+    margin-left: 50px;
+    width: 300px;
 }
 
 .img-wrapper-house,
