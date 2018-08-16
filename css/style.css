@@ -416,13 +416,23 @@ a.nav-catalog {
     background-color: #ffffff;
 }
 
+.search-hotels {
+    width: 1200px;
+    position: absolute;
+    top: 1878px;
+}
+
 .proposal-wrapper {
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: #ffffff;
+    height: 290px;
 }
 
 .search-title {
+    margin-top: 50px;
+    margin-bottom: 24px;
     font-size: 30px;
     line-height: 36px;
 }
@@ -430,6 +440,9 @@ a.nav-catalog {
 .search-proposal {
     font-size: 14px;
     line-height: 24px;
+    margin: 0 auto;
+    padding-bottom: 47px;
+    width: 500px;
 }
 
 .search-map-wrapper {
@@ -521,6 +534,8 @@ a.nav-catalog {
 .search-form-button {
     font-size: 21px;
     line-height: 26px;
+    margin: 0 auto;
+    padding-top: 10px;
 }
   
 .search-form-button[type="button"] {
