@@ -107,30 +107,37 @@
       <section class="search-hotels">
         <div class="proposal-wrapper">
           <h2 class="search-title">Заинтересовались?</h2>
-          <p class="search-proposal">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <p class="search-proposal">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц
+            в Седоне</p>
           <button type="button" class="button search-form-button button-brown">Поиск гостиницы в Седоне</button>
         </div>
         <div class="search-map-wrapper">
+          <div class="map">
+            <h3 class="visually-hidden">Карта Google</h3>
+            <img src="img/map.jpg" width="1200" height="593" alt="Карта Google">
+          </div>
           <div class="search-modal-window">
             <h3 class="visually-hidden">Форма поиска отеля</h3>
             <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
               <div class="search-info">
                 <label for="date-arrival">Дата заезда:</label>
                 <input type="text" class="date-field" name="date-arrival" id="date-arrival" placeholder="24 апреля 2017">
+                  <!--  
                 <button type="button" class="button calendar-icon">
                   <svg class="calendar-icon-svg">
-                    <!--здесь будет иконка-->
                   </svg>
                 </button>
+                -->
               </div>
-              <div class="search-info">
+              <div class="search-info second-row">
                 <label for="date-departure">Дата выезда:</label>
                 <input type="text" class="date-field" name="date-departure" id="date-departure" placeholder="4 июля 2017">
+                <!--  
                 <button type="button" class="button calendar-icon">
                   <svg class="calendar-icon-svg">
-                    <!--здесь будет иконка-->
                   </svg>
                 </button>
+                -->
               </div>
               <div class="search-info">
                 <label for="adult">Взрослые</label>
@@ -146,10 +153,6 @@
               </div>
               <button class="button search-form-button button-blue" type="submit">Найти</button>
             </form>
-          </div>
-          <div class="map">
-            <h3 class="visually-hidden">Карта Google</h3>
-            <img src="img/map.jpg" width="1200" height="593" alt="Карта Google">
           </div>
         </div>
       </section>

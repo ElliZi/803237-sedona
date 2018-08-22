@@ -451,6 +451,10 @@ a.nav-catalog {
     align-items: center;
 }
 
+.map {
+    position: absolute;
+}
+
 .search-modal-window {
     display: flex;
     flex-direction: column;
@@ -458,11 +462,21 @@ a.nav-catalog {
     width: 566px;
     height: 566px;
     font-weight: 700;
+    background-color: #ffffff;
+    position: absolute;
 }
+
 
 .date-field input {
     font-weight: 700;
 }
+
+.search-form {
+    margin: 56px;
+}
+
+.search-info {
+    }
 
 .search-form input::-webkit-input-placeholder {
     font-family: "PT Sans", Arial, sans-serif;
@@ -595,9 +609,18 @@ a.nav-catalog {
     background-color: #f2f2f2;
 }
 
+.second-row {
+    margin-top: 30px;
+}
+.search-info {
+    display: flex;
+}
+
 .date-field {
     width: 346px;
-    height: 38px;
+    height: 35px;
+    margin-left: 18px;
+    justify-content: right;
 
     color:  #000000;
     text-align: left;
