@@ -228,35 +228,35 @@ a.nav-catalog {
     margin-top: 161px;
 }
 
-.additional-reasons-house h3::before {
+.additional-reasons-house::before {
     content: "";
     position: absolute;
     width: 76px;
     height: 72px;
-    margin-top: 40px;
-    margin-left: -4px;
+    top: 316px;
+    left: 164px;
     background-image: 
         url(../img/icon-1.svg);
 }
 
-.additional-reasons-eat h3::before {
+.additional-reasons-eat::before {
     content: "";
     position: absolute;
     width: 74px;
     height: 70px;
-    margin-top: 40px;
-    margin-left: -18px;
+    top: 318px;
+    left: 564px;
     background-image: 
         url(../img/icon-3.svg);
 }
 
-.additional-reasons-gift h3::before {
+.additional-reasons-gift::before {
     content: "";
     position: absolute;
     width: 64px;
     height: 76px;
-    margin-top: 35px;
-    margin-left: 20px;
+    top: 312px;
+    left: 968px;
     background-image: 
         url(../img/icon-2.svg);
 }
