@@ -68,7 +68,7 @@ input[type="radio"].visually-hidden {
     margin: auto;
     padding: 0;
     color: #000000;
-    height: 56px;
+    min-height: 56px;
     
     align-items: center;
     background-color: #ffffff;
@@ -174,7 +174,7 @@ a.nav-catalog {
     flex-direction: column;
     position: relative;
     bottom: 20px;
-    height: 216px;
+    min-height: 216px;
     margin: 0px;
     text-align: center;
     background-color: #ffffff;
@@ -207,7 +207,7 @@ a.nav-catalog {
     flex-direction: row;
     margin: 0;
     padding: 0;
-    height: 256px;
+    min-height: 256px;
 }
 
 .additional-reasons-wrapper {
@@ -232,7 +232,7 @@ a.nav-catalog {
     content: "";
     position: absolute;
     width: 76px;
-    height: 72px;
+    min-height: 72px;
     top: 316px;
     left: 164px;
     background-image: 
@@ -243,7 +243,7 @@ a.nav-catalog {
     content: "";
     position: absolute;
     width: 74px;
-    height: 70px;
+    min-height: 70px;
     top: 318px;
     left: 564px;
     background-image: 
@@ -254,7 +254,7 @@ a.nav-catalog {
     content: "";
     position: absolute;
     width: 64px;
-    height: 76px;
+    min-height: 76px;
     top: 312px;
     left: 968px;
     background-image: 
@@ -305,7 +305,7 @@ a.nav-catalog {
 }
 
 .third-row {
-    height: 256px;
+    min-height: 256px;
 }
 
 .real-city {
@@ -427,7 +427,7 @@ a.nav-catalog {
     flex-direction: column;
     text-align: center;
     background-color: #ffffff;
-    height: 290px;
+    min-height: 290px;
 }
 
 .search-title {
@@ -460,7 +460,7 @@ a.nav-catalog {
     flex-direction: column;
     align-items: center;
     width: 566px;
-    height: 566px;
+    min-height: 566px;
     font-weight: 700;
     background-color: #ffffff;
     position: absolute;
@@ -597,7 +597,7 @@ a.nav-catalog {
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
-    height: 38px;
+    min-height: 38px;
     width: 38px;
     font-weight: 700;
     color:  #000000;
@@ -618,7 +618,7 @@ a.nav-catalog {
 
 .date-field {
     width: 346px;
-    height: 35px;
+    min-height: 35px;
     margin-left: 18px;
     justify-content: right;
 
@@ -646,7 +646,7 @@ a.nav-catalog {
 .count-button {
     font-size: 22px;
     line-height: 26px;
-    height: 38px;
+    min-height: 38px;
     width: 38px;
     color: #a9a9a9;
     background-color: #f2f2f2;
@@ -705,7 +705,7 @@ a.nav-catalog {
 
 .cost-controls {
     width: 314px;
-    height: 32px;
+    min-height: 32px;
     text-align: center;
     font-size: 14px;
     color: #ffffff;
@@ -732,7 +732,7 @@ a.nav-catalog {
     background-color: transparent;
     
     width: 110.05px;
-    height: 15px;
+    min-height: 15px;
 
     border: none;
 }
@@ -744,7 +744,7 @@ a.nav-catalog {
     background-color: transparent;
 
     width: 110.05px;
-    height: 15px;
+    min-height: 15px;
 
     border: none;
 }
@@ -756,7 +756,7 @@ a.nav-catalog {
     background-color: transparent;
 
     width: 110.05px;
-    height: 15px;
+    min-height: 15px;
 
     border: none;
 }
@@ -768,7 +768,7 @@ a.nav-catalog {
     background-color: transparent;
 
     width: 110.05px;
-    height: 15px;
+    min-height: 15px;
 
     border: none;
 }
@@ -958,7 +958,7 @@ a.nav-catalog {
   
 .social-button {
     width: 46px;
-    height: 48px;
+    min-height: 48px;
     background-color: #81b3d2;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -976,13 +976,13 @@ a.nav-catalog {
     
 .footer-html-academy a {
     width: 116px;
-    height: 42px;
+    min-height: 42px;
 }
 
 .visually-hidden {
     position: absolute;
     width: 1px;
-    height: 1px;
+    min-height: 1px;
     margin: -1px;
     border: 0;
     padding: 0;
